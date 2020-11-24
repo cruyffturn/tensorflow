@@ -940,7 +940,7 @@ class Model(base_layer.Layer, version_utils.ModelVersionSelector):
             `validation_data` could be:
               - tuple `(x_val, y_val)` of Numpy arrays or tensors
               - tuple `(x_val, y_val, val_sample_weights)` of Numpy arrays
-              - dataset
+              - dataset  
             For the first two cases, `batch_size` must be provided.
             For the last case, `validation_steps` could be provided.
             Note that `validation_data` does not support all the data types that
